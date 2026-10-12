@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sabor Villa Crespo · Rotisería</title>
+  <meta name="description" content="Rotisería casera en Villa Crespo. Viandas del día, empanadas por docena y postres. Pedí por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Mono:wght@400;500&family=Work+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="sv">
+
+  <!-- Cinta superior -->
+  <div class="ticker mono" aria-label="Hoy hay">
+    <div class="ticker-track">
+      <span>HOY HAY ▸ GUISO DE LENTEJAS ✱ MILANESA CON PURÉ ✱ TARTA DE CALABAZA ✱ POLLO AL HORNO ✱ EMPANADAS RECIÉN SALIDAS ✱ FLAN CASERO ✱&nbsp;</span>
+      <span aria-hidden="true">HOY HAY ▸ GUISO DE LENTEJAS ✱ MILANESA CON PURÉ ✱ TARTA DE CALABAZA ✱ POLLO AL HORNO ✱ EMPANADAS RECIÉN SALIDAS ✱ FLAN CASERO ✱&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- Encabezado -->
+  <header class="header container">
+    <a href="#" class="brand">
+      <span class="brand-badge big">SV</span>
+      <span class="brand-name big">Sabor<br>Villa Crespo</span>
+    </a>
+    <span class="mono header-tag">Rotisería · desde 1998</span>
+    <a href="#" data-href="wa" target="_blank" rel="noopener" class="btn btn-red">Pedir ahora</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <h1 class="hero-title">Comida casera, <span class="red">lista para hoy.</span></h1>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-lead">Prendemos las hornallas a las nueve. A las once ya hay viandas del día, empanadas por docena y postre de olla. Pasás y te lo llevás caliente, o te lo mandamos a casa.</p>
+        <div class="hero-actions">
+          <a href="#" data-href="wa" target="_blank" rel="noopener" class="btn btn-dark big">Pedir por WhatsApp →</a>
+          <a href="#pizarra" class="btn btn-outline">Ver la pizarra</a>
+        </div>
+      </div>
+      <div class="polaroids">
+        <figure class="polaroid polaroid-main">
+          <span class="tape"></span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Docena_de_Empanadas_Caseras_Argentinas.jpg?width=1200" alt="Docena de empanadas caseras" class="ratio-4-3">
+          <figcaption class="mono">la docena del mediodía</figcaption>
+        </figure>
+        <figure class="polaroid polaroid-small">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Milanesa_napolitana_con_papas_fritas_rodajas_de_tomate_y_or%C3%A9gano.jpg?width=900" alt="Milanesa napolitana con papas fritas" class="ratio-1-1">
+          <figcaption class="mono">mila napo, jueves</figcaption>
+        </figure>
+        <div class="sticker big">Pedidos<br>hasta<br>las 21 h</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pizarra / menú -->
+  <section id="pizarra" class="pizarra-wrap">
+    <div class="pizarra">
+      <div class="pizarra-head">
+        <h2>La pizarra de hoy</h2>
+        <span class="mono gold" data-bind="diaMenu"></span>
+      </div>
+      <div class="pizarra-grid">
+        <div>
+          <p class="mono menu-cat">— VIANDAS —</p>
+          <p class="menu-note">Porción individual, en bandeja para llevar.</p>
+          <ul class="menu-list">
+            <li><span>Guiso de lentejas con panceta</span><span class="dots"></span><span class="mono gold">$6.900</span></li>
+            <li><span>Milanesa con puré</span><span class="dots"></span><span class="mono gold">$7.400</span></li>
+            <li><span>Tarta de calabaza y muzza</span><span class="dots"></span><span class="mono gold">$6.500</span></li>
+            <li><span>Pollo al horno con batatas</span><span class="dots"></span><span class="mono gold">$7.200</span></li>
+            <li><span>Ensalada de garbanzos</span><span class="dots"></span><span class="mono gold">$5.800</span></li>
+            <li><span>Vianda doble (cualquiera)</span><span class="dots"></span><span class="mono gold">$12.900</span></li>
+          </ul>
+        </div>
+        <div>
+          <p class="mono menu-cat">— EMPANADAS —</p>
+          <p class="menu-note">Al horno. Surtidas como quieras.</p>
+          <ul class="menu-list">
+            <li><span>La docena</span><span class="dots"></span><span class="mono gold">$14.500</span></li>
+            <li><span>Media docena</span><span class="dots"></span><span class="mono gold">$7.600</span></li>
+            <li><span>Suelta</span><span class="dots"></span><span class="mono gold">$1.350</span></li>
+          </ul>
+          <p class="menu-flavors">Carne a cuchillo · Jamón y queso · Humita · Verdura · Pollo · Caprese</p>
+          <div class="menu-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Empanadas_argentinas_(docena)_de_carne.jpg?width=900" alt="Empanadas de carne" class="ratio-16-10" loading="lazy">
+          </div>
+        </div>
+        <div>
+          <p class="mono menu-cat">— POSTRES —</p>
+          <p class="menu-note">Hechos acá, en porción.</p>
+          <ul class="menu-list">
+            <li><span>Flan con dulce de leche</span><span class="dots"></span><span class="mono gold">$3.400</span></li>
+            <li><span>Budín de pan</span><span class="dots"></span><span class="mono gold">$2.900</span></li>
+            <li><span>Arroz con leche</span><span class="dots"></span><span class="mono gold">$2.900</span></li>
+          </ul>
+          <p class="big menu-changes">El menú cambia<br><span class="gold">todos los días.</span></p>
+          <p class="menu-note menu-note-end">Escribinos y te pasamos lo que hay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo pedir -->
+  <section class="cta">
+    <div class="container-inner">
+      <h2 class="cta-title">¿Qué vas a comer hoy?</h2>
+      <a href="#" data-href="wa" target="_blank" rel="noopener" class="cta-btn big">
+        Pedí por WhatsApp <span class="mono" data-bind="telefono"></span>
+      </a>
+      <ol class="steps">
+        <li><p class="big step-num">1</p><p>Nos escribís qué querés y para qué hora.</p></li>
+        <li><p class="big step-num">2</p><p>Te confirmamos total y demora.</p></li>
+        <li><p class="big step-num">3</p><p>Pagás en efectivo, transferencia o tarjeta al recibir.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Dónde estamos -->
+  <section id="donde" class="donde container">
+    <div class="ticket zig mono">
+      <p class="center">SABOR VILLA CRESPO<br><span data-bind="direccion"></span><br>TICKET Nº 0001</p>
+      <hr>
+      <p class="ticket-label">HORARIOS</p>
+      <div class="row"><span>LUN A VIE</span><span>11–15 / 19–22</span></div>
+      <div class="row"><span>SÁBADO</span><span>11–22</span></div>
+      <div class="row"><span>DOMINGO</span><span>11–16</span></div>
+      <hr>
+      <p class="ticket-label">ENVÍOS</p>
+      <p>VILLA CRESPO · PATERNAL<br>CHACARITA · ALMAGRO NORTE</p>
+      <div class="row row-gap"><span>COSTO</span><span>$1.200</span></div>
+      <div class="row"><span>DESDE $15.000</span><span>GRATIS</span></div>
+      <div class="row"><span>DEMORA</span><span>30–45 MIN</span></div>
+      <hr>
+      <div class="row row-total"><span>TOTAL</span><span>CASERO</span></div>
+      <p class="center ticket-thanks">¡GRACIAS, VECINO!</p>
+    </div>
+    <div>
+      <h2 class="donde-title">A dos cuadras de Malabia</h2>
+      <p class="donde-text"><span data-bind="direccion"></span>. Retirás por el mostrador o te lo llevamos.</p>
+      <div class="map">
+        <iframe title="Mapa de Villa Crespo" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.448%2C-34.601%2C-58.425%2C-34.587&amp;layer=mapnik&amp;marker=-34.594%2C-58.4365"></iframe>
+      </div>
+      <a href="#" data-href="mapa" target="_blank" rel="noopener" class="map-link">Abrir en Google Maps →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="big footer-brand">Sabor Villa Crespo</p>
+      <p class="mono footer-info"><span data-bind="direccion"></span> · <span data-bind="telefono"></span></p>
+    </div>
+    <p class="footer-credits">Fotos: Wikimedia Commons</p>
+  </footer>
+
+</div>
+</body>
+</html>
